@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main () 
+   int r1;
+#include <stdio.h>   
+   int main (){
+   int r2;
+   int r1;
+   int c1;
+   int c2;
+   int Cc;
+   int Cr;
+   Cr=0;
+   Cc=0;
+printf("Dame numero de reng de m1\n");
+scanf ("%i", &c1);
+printf("Dame numero de col de m1 \n");
+scanf ("%i", &r1);
+int m1 [r1][c1];
+while (Cc<c1){
+while (Cr<r1){
+printf ("\n");
+printf ("Dar [%i][%i] de m1 \n", Cr+1, Cc+1);
+scanf ("%i",&m1 [Cr][Cc]);
+Cr=Cr+1;
+}
+Cr=0;
+Cc=Cc+1;
+}
+}
+//Cometì el error de no definir la variable r1 y no compilaba, luego escribì mal en el codigo Cr y Cc, habìa escrito cr y cc, entonces no las reconocìa
